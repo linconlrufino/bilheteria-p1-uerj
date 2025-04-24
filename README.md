@@ -1,11 +1,9 @@
 ## [P1] - Atividade avaliativa sobre testes de unidade 
 ### Informações adicionais do projeto
-- Versão .Net utilizada: .NET 8.0 - https://dotnet.microsoft.com/pt-br/download/dotnet/8.0 **.
+- Versão .Net utilizada: .NET 8.0 - https://dotnet.microsoft.com/pt-br/download/dotnet/8.0.
 - comando para execução dos testes **idade**:
 - ![image](https://github.com/user-attachments/assets/45e1230a-1c45-4137-8de5-7cfbca53a2e0)
 - ![image](https://github.com/user-attachments/assets/f4dab9ca-c244-432b-ad6d-7a3d6fb450ab)
----
-
 ---
 ### Regras do Sistema
 - Cada visitante pode comprar até **5 bilhetes**.
