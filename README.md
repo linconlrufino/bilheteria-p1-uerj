@@ -1,6 +1,7 @@
 ## [P1] - Atividade avaliativa sobre testes de unidade 
 ### Informações adicionais do projeto
 - Versão .Net utilizada: .NET 8.0 - https://dotnet.microsoft.com/pt-br/download/dotnet/8.0.
+- IDE utilizada: Rider, recomendo execução em ambiente Windows ou MacOS, utilizando Rider, Visual Studio 2022 ou VSCode
 - comando para execução dos testes: **dotnet test**
 - ![image](https://github.com/user-attachments/assets/45e1230a-1c45-4137-8de5-7cfbca53a2e0)
 - ![image](https://github.com/user-attachments/assets/f4dab9ca-c244-432b-ad6d-7a3d6fb450ab)
