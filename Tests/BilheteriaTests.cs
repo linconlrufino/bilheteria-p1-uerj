@@ -15,8 +15,8 @@ namespace Tests
         [InlineData(new int[] { 07, 27, 67 }, 55)]           // 3 Variados
         public void CalcularAtendimento_DeveRetornarTotalCorreto(int[] idades, decimal esperado)
         {
-            int quantidade = idades.Length;
-            decimal resultado = Bilheteria.CalcularAtendimento(quantidade, idades);
+            var quantidade = idades.Length;
+            var resultado = Bilheteria.CalcularAtendimento(quantidade, idades);
             Assert.Equal(esperado, resultado);
         }
 
@@ -27,9 +27,9 @@ namespace Tests
         [InlineData(new int[] { -1 }, 0)]                       // idade inferior a 0
         public void CalcularAtendimento_ValoresIncorretos_DeveRetornarValorZero(int[] idades, decimal esperado)
         {
-            int quantidade = idades.Length;
-            decimal resultado = Bilheteria.CalcularAtendimento(quantidade, idades);
-            Assert.Equal(0, resultado);
+            var quantidade = idades.Length;
+            var resultado = Bilheteria.CalcularAtendimento(quantidade, idades);
+            Assert.Equal(esperado, resultado);
         }
     }
 }
