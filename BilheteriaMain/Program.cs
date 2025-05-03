@@ -14,7 +14,6 @@ for (int i = 0; i < quantidadeIngressos; i++)
 {
     Console.WriteLine("Insira a idade:");
     int.TryParse(Console.ReadLine(), out idades[i]);
-    
     Console.Clear();
 }
 
